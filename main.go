@@ -95,7 +95,7 @@ func choiseCharClass() string {
 	var approveChoice string
 	var charClass string
 
-	for approve_choice != "y" {
+	for approveChoice != "y" {
 		fmt.Print("Введи название персонажа, за которого хочешь играть: Воитель — warrior, Маг — mage, Лекарь — healer: ")
 		fmt.Scanf("%s\n", &charClass)
 		if charClass == "warrior" {
